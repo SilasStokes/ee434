@@ -22,7 +22,7 @@
 .subckt myAnd A B Y VDD VSS
 * PMOS:
     mp1     nout       A       VDD     VDD     PMOS_HP L=45n       W=75n
-    mp1     nout       B       VDD     VDD     PMOS_HP L=45n       W=75n
+    mp2     nout       B       VDD     VDD     PMOS_HP L=45n       W=75n
 
 * NMOS:
 *   name    drain   gate    source  body    type    L(Length)   W(Width)
@@ -42,7 +42,7 @@
 * NMOS:
 *   name    drain   gate    source  body    type    L(Length)   W(Width)
     mn1     nout       A       VSS     VSS     NMOS_HP L=45n       W=50n
-    mn1     nout       B       VSS     VSS     NMOS_HP L=45n       W=50n
+    mn2    nout       B       VSS     VSS     NMOS_HP L=45n       W=50n
 * mn3 and mp3 will be inverter
 *   subckt_inst_name    nodes               subckt_definition_name>
     X1                  nout Y nVdd 0        myInv
