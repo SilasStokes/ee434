@@ -30,7 +30,7 @@
     mn2     n1         B       VSS     VSS     NMOS_HP L=45n       W=50n
 * mn3 and mp3 will be inverter
 *   subckt_inst_name    nodes               subckt_definition_name>
-    X1                  nout Y nVdd 0        myInv
+    X1                  nout Y VDD VSS        myInv
 .ends
 
 .subckt myOr A B Y VDD VSS
@@ -45,7 +45,7 @@
     mn2    nout       B       VSS     VSS     NMOS_HP L=45n       W=50n
 * mn3 and mp3 will be inverter
 *   subckt_inst_name    nodes               subckt_definition_name>
-    X1                  nout Y nVdd 0        myInv
+    X1                  nout Y VDD VSS        myInv
 .ends
 
 * Now, I "instantiate" two inverters.
