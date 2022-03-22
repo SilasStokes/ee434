@@ -13,8 +13,10 @@
 * A subckt definition for an inverter.
 * Format: .subckt <subckt name> <ports>
 .subckt myInv A Y VDD VSS
-mn1 Y A VSS VSS NMOS_HP L=45n W=50n
-mp1 Y A VDD VDD PMOS_HP L=45n W=75n
+* Format: 
+*   name    drain   gate    source  body    type    L(Length)   W(Width)
+    mn1     Y       A       VSS     VSS     NMOS_HP L=45n       W=50n
+    mp1     Y       A       VDD     VDD     PMOS_HP L=45n       W=75n
 .ends
 
 * Now, I "instantiate" two inverters.
