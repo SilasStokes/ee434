@@ -26,8 +26,8 @@
 
 * NMOS:
 *   name    drain   gate    source  body    type    L(Length)   W(Width)
-    mn1     nout       A       n1      VSS     NMOS_HP L=45n       W=50n
-    mn2     n1         B       VSS     VSS     NMOS_HP L=45n       W=50n
+    mn1     nout       A       n1      VSS     NMOS_HP L=45n       W=100n
+    mn2     n1         B       VSS     VSS     NMOS_HP L=45n       W=100n
 * mn3 and mp3 will be inverter
 *   subckt_inst_name    nodes               subckt_definition_name>
     X1                  nout Y VDD VSS        myInv
@@ -36,8 +36,8 @@
 .subckt myOr A B Y VDD VSS
 * PMOS:
 *   name    drain       gate    source  body    type    L(Length)   W(Width)
-    mp1     nout        A       n1      VDD     PMOS_HP L=45n       W=75n
-    mp2     n1          B       VDD     VDD     PMOS_HP L=45n       W=75n
+    mp1     nout        A       n1      VDD     PMOS_HP L=45n       W=150n
+    mp2     n1          B       VDD     VDD     PMOS_HP L=45n       W=150n
 
 * NMOS:
 *   name    drain   gate    source  body    type    L(Length)   W(Width)
