@@ -43,7 +43,7 @@
 										* might need to change body to net_2
 * right mux logic
 	mn4		net_3		B		VSS		VSS		NMOS_HP	L=0.05u		W=0.09u
-	mn5		nY_bar 		S		net_3	VSS		NMOS_HP	L=0.05u		W=0.u 
+	mn5		nY_bar 		S		net_3	VSS		NMOS_HP	L=0.05u		W=0.9u 
 										* might need to change body to net_2
 * output inverter:
 	mn6		Y			nY_bar	VSS		VSS		NMOS_HP	L=0.05u		W=0.09u
