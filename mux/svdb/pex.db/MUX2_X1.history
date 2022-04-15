@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Fri Apr 15 13:11:30 2022 " "v2020.3_24.16" "-xrc -pdb -rcc -turbo 1 /net/ugrads/sstokes/pvt/ee434/mux/_calibrexRC.rul_"
+"Fri Apr 15 13:11:33 2022 " "v2020.3_24.16" "-xrc -fmt -all /net/ugrads/sstokes/pvt/ee434/mux/_calibrexRC.rul_"

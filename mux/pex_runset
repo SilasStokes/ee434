@@ -1,0 +1,9 @@
+*pexRulesFile: /net/ugrads/sstokes/pvt/ee434/mux/rules/calibrexRC.rul
+*pexRunDir: /net/ugrads/sstokes/pvt/ee434/mux
+*pexLayoutPaths: /net/ugrads/sstokes/pvt/ee434/mux/MUX2_X1_6.gds
+*pexLayoutPrimary: MUX2_X1
+*pexSourcePath: MUX2_X1_LVS.sp
+*pexSourcePrimary: MUX2_X1
+*pexPexNetlistFile: MUX2_X1_xRC.sp
+*pexPexNetlistFormat: HSPICE
+*cmnUseCBforRVE: 0

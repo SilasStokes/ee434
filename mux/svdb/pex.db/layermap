@@ -1,0 +1,50 @@
+OK
+VERSION          2
+TIME_NUMBER  767071621
+LAYER_COUNT         33
+VIACOR_COUNT         10
+FIELD_NAMES drc_layer_nb layer_name
+         9 poly
+        12 nsrcdrn
+        13 psrcdrn
+        15 pwell
+        16 pcont
+        23 nsub
+        24 ncont
+        25 ncont1
+        26 pcont1
+        28 via1
+        30 nsd
+        32 metal1
+        36 psd
+        40 metal2
+        44 via2
+        46 metal3
+        50 via3
+        52 metal4
+        56 via4
+        58 metal5
+        62 via5
+        64 metal6
+        68 via6
+        70 metal7
+        74 via7
+        76 metal8
+        80 via8
+        82 metal9
+        86 via9
+        88 metal10
+        93 contact
+      2545 temporary_layer2545
+      2546 temporary_layer2546
+VIACOR_FIELD_NAMES VIA_drc_layer_nb LAYER1_drc_layer_nb LAYER2_drc_layer_nb
+28  32  40
+44  40  46
+50  46  52
+56  52  58
+62  58  64
+68  64  70
+74  70  76
+80  76  82
+86  82  88
+93  9  32
