@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Fri Apr 15 00:29:32 PDT 2022
+//     by Calibre Interactive - DRC (v2020.3_24.16)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "/net/ugrads/sstokes/pvt/ee434/mux/MUX2_X1_6.gds"
+LAYOUT PRIMARY "MUX2_X1"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/net/ugrads/sstokes/pvt/ee434/mux/rules/calibreDRC.rul"
+

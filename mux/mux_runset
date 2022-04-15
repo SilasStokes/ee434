@@ -1,0 +1,8 @@
+*drcRulesFile: /net/ugrads/sstokes/pvt/ee434/mux/rules/calibreDRC.rul
+*drcRunDir: /net/ugrads/sstokes/pvt/ee434/mux
+*drcLayoutPaths: /net/ugrads/sstokes/pvt/ee434/mux/MUX2_X1_6.gds
+*drcLayoutPrimary: MUX2_X1
+*cmnPromptSaveRunset: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}

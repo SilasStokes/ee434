@@ -1,0 +1,2 @@
+SOFTINCLUDE /net/ic/tools/cadence/releases/IC_06.18.130/share/cdssetup/cds.lib
+DEFINE mux_lib /net/ugrads/sstokes/pvt/ee434/mux/mux_lib

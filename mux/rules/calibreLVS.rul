@@ -1,0 +1,112 @@
+TITLE   "LVS Rule File for FreePDK45"
+
+LVS POWER NAME VDD
+LVS GROUND NAME VSS GROUND
+LVS REDUCE PARALLEL MOS no
+LVS REDUCE SERIES MOS no
+LVS REDUCE SEMI SERIES MOS no
+LVS REDUCE SPLIT GATES no
+LVS FILTER UNUSED MOS no
+LVS RECOGNIZE GATES all
+LVS COMPONENT TYPE PROPERTY element
+LVS COMPONENT SUBTYPE PROPERTY model
+LVS IGNORE PORTS no
+
+LVS SPICE STRICT WL YES
+
+//LVS REPORT mask.lvs.rep
+//LVS REPORT MAXIMUM 50
+MASK RESULTS DATABASE maskdb
+
+LAYOUT INPUT EXCEPTION SEVERITY PRECISION_RULE_FILE 1
+PRECISION 1000 //scale down by factor of 10
+RESOLUTION 25
+//LAYOUT USE DATABASE PRECISION YES
+
+
+TEXT LAYER metal1 metal2 metal3 metal4 metal5 metal6 metal7 metal8 metal9 metal10
+PORT LAYER TEXT  metal1 metal2 metal3 metal4 metal5 metal6 metal7 metal8 metal9 metal10
+
+include rules/layer.inc
+
+connect nsd     metal1 by via1
+connect psd     metal1 by via1
+connect metal1  metal2 by via1
+connect metal2  metal3 by via2
+connect metal3  metal4 by via3
+connect metal4  metal5 by via4
+connect metal5  metal6 by via5
+connect metal6  metal7 by via6
+connect metal7  metal8 by via7
+connect metal8  metal9 by via8
+connect metal9  metal10 by via9
+
+capacitance order nsd psd poly metal1 metal2 metal3 metal4 metal5 metal6 metal7 metal8 metal9 metal10
+
+pdif = active and pimplant 
+ndif = active and nimplant
+
+ngate1 = poly and ndif
+pgate1 = poly and pdif
+
+nsrcdrn = ndif not ngate1
+psrcdrn = pdif not pgate1
+
+pcont = psrcdrn and pwell
+
+ntapcont = active not interact pimplant
+ptapcont = active not interact nimplant 
+
+bulk = extent
+nsub = (bulk not pwell) and nwell
+ncont = nsrcdrn and nsub
+
+connect metal1 poly psrcdrn nsrcdrn by contact mask
+connect psrcdrn pwell by pcont mask
+connect nsrcdrn nsub by ncont mask
+
+ncont1= ntapcont and nsub
+pcont1= ptapcont and pwell
+connect metal1 ncont1 by contact mask
+connect metal1 pcont1 by contact mask
+connect ncont1 nsub
+connect pcont1 pwell
+
+device mp (PMOS_HP) pgate1 poly (G) psrcdrn (S) psrcdrn (D) nsub  CMACRO FET_PROPERTIES pgate1 nsub
+device mn (NMOS_HP) ngate1 poly (G) nsrcdrn (S) nsrcdrn (D) pwell  CMACRO FET_PROPERTIES ngate1 pwell
+
+VARIABLE trace_delta 1e-12
+
+DMACRO FET_TRACE device_type device_name {
+TRACE PROPERTY device_type(device_name) l l trace_delta ABSOLUTE
+TRACE PROPERTY device_type(device_name) w w trace_delta ABSOLUTE
+}
+
+CMACRO FET_TRACE MN NMOS_HP
+CMACRO FET_TRACE MP PMOS_HP
+
+DMACRO FET_PROPERTIES seed well{
+[
+PROPERTY  W, L, AS, AD, PS, PD
+
+      AS = area(S)
+      AD = area(D)
+      PS = perimeter(S)
+      PD = perimeter(D)
+      if ( AS == 0 ) {
+         AD = area(D) / 2
+         AS = AD
+         PD = perimeter(D) / 2
+         PS = PD
+         }
+      if ( AD == 0 ) {
+         AS = area(S) / 2
+         AD = AS
+         PS = perimeter(S) / 2
+         PD = PS
+         }
+     W = (perim_co(seed,S) + perim_co(seed,D) ) * 0.5
+     L = (perim(seed) - perim_co(seed,S) - perim_in(seed,S) - perim_co(seed,D) - perim_in(seed,D) ) * 0.5
+   
+]
+}
