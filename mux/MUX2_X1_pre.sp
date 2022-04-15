@@ -24,7 +24,8 @@
 * Instantation. The instance name should begin with "X".
 * The order of the ports should match the order of the ports in the definition.
 * The last one is the name of the instance definition.
-X1 nIn nOut nVdd 0 myInv_X1
+* X1 nIn nOut nVdd 0 MUX2_X1 
+X1 nA nB nS nOut nVdd 0 MUX2_X1 
 
 * Output load capacitance. Capacitors should begin with "c".
 * Format: <capacitor name> <node 1> <node 2> <value>
