@@ -12,26 +12,26 @@
 .param Vsup = 1.0V
 
 
-.GLOBAL VDD
-.GLOBAL VSS
+* .GLOBAL VDD
+* .GLOBAL VSS
 
-.SUBCKT MUX2_X1 A B S Y VDD VSS
+.SUBCKT MUX2_X1 A B S Y localVDD VSS
 * PMOS:
 *   name    drain       gate    source  body    type    L(Length)   W(Width)
 * s - inverter
-	mp1 	nS_bar		S 		VDD 	VDD 	PMOS_HP L=0.05u 	W=0.14u
+	mp1 	nS_bar		S 		localVDD 	localVDD 	PMOS_HP L=0.05u 	W=0.14u
 * left mux logic
-	mp2 	net_1 		nS_bar  VDD 	VDD 	PMOS_HP L=0.05u 	W=0.14u
-	mp3 	nY_bar		S 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.14u 
-										* do I change body to VDD or net_1
+	mp2 	net_1 		nS_bar  localVDD 	localVDD 	PMOS_HP L=0.05u 	W=0.14u
+	mp3 	nY_bar		S 		net_1	localVDD 	PMOS_HP L=0.05u 	W=0.14u 
+										* do I change body to localVDD or net_1
 * right mux logic
-	mp4 	net_1 		A 		VDD 	VDD 	PMOS_HP L=0.05u 	W=0.14u
-	mp5 	nY_bar		B 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.14u 
-										* do I change body to VDD or net_1
+	mp4 	net_1 		A 		localVDD 	localVDD 	PMOS_HP L=0.05u 	W=0.14u
+	mp5 	nY_bar		B 		net_1	localVDD 	PMOS_HP L=0.05u 	W=0.14u 
+										* do I change body to localVDD or net_1
 
 * output inverter:
-	*mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.14u
-	mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.14u
+	*mp6		Y			nY_bar	localVDD		localVDD		PMOS_HP L=0.05u 	W=0.14u
+	mp6		Y			nY_bar	localVDD		localVDD		PMOS_HP L=0.05u 	W=0.14u
 
 * NMOS:
 *   name    drain   	gate    source  body    type    L(Length)   W(Width)
