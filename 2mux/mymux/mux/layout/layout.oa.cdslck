@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sstokes
+HostName                       sig1.eecs.wsu.edu
+ProcessIdentifier              3670
+ProcessCreationTime_UTC        1651285992
+ProcessCreationTime_Readable   Fri Apr 29 19:33:12 2022 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /net/ugrads/sstokes/pvt/ee434/2mux/mymux/mux/layout/layout.oa.cdslck
+TimeEditLocked                 Fri Apr 29 19:36:42 2022 PDT

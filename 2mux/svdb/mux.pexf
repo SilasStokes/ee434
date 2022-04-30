@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /net/ugrads/sstokes/pvt/ee434/2mux
+pex_PexParam LAYOUT_PRIMARY mux
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {MUX "" MUX.pdb "" } } 

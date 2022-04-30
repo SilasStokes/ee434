@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1651298781 1651298782
+lvs_ExtOutFile RUNDIR /net/ugrads/sstokes/pvt/ee434/2mux
+lvs_ExtOutFile RULES_FILE /net/ugrads/sstokes/pvt/ee434/2mux/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /net/ugrads/sstokes/pvt/ee434/2mux/svdb/mux.sp
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/mux.pdsp }

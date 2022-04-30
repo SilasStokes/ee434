@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sstokes
+HostName                       sighup.eecs.wsu.edu
+ProcessIdentifier              5273
+ProcessCreationTime_UTC        1651286001
+ProcessCreationTime_Readable   Fri Apr 29 19:33:21 2022 PDT
+AppIdentifier                  /net/ic/tools/cadence/releases/IC_06.18.130/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /net/ugrads/sstokes/pvt/ee434/2mux/libManager.log
+TimeEditLocked                 Fri Apr 29 19:35:14 2022 PDT
