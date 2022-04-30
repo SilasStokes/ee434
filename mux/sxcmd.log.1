@@ -1,0 +1,24 @@
+### CustomExplorer log file, revision F-2011.09-SP1 (build 1103) ###
+### created at 15:38:20 on Fri Apr 15 2022 (Linux AMD64) ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 1080 1386
+wv_move_window CustomWaveView 1074 1330
+wv_resize_window CustomWaveView 1194 1050
+sx_open_sim_file_read {step3_mux.tr0}
+wv_select_hierview_item {FILE0:D0:step3_mux.tr0}
+wv_dclick_hierview_item {FILE0:D0:step3_mux.tr0}
+wv_select_hierview_item {FILE0:D0:step3_mux.tr0} {toplevel}
+wv_select_sigview_item v(noutput)
+wv_dclick_sigview_item v(noutput)
+wv_select_sigview_item v(nout)
+wv_dclick_sigview_item v(nout)
+## user break ctrl-C
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1578 1363
+# wv_press_button Confirmation.Ok
