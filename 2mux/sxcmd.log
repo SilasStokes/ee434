@@ -1,0 +1,390 @@
+### CustomExplorer log file, revision F-2011.09-SP1 (build 1103) ###
+### created at 23:39:46 on Fri Apr 29 2022 (Linux AMD64) ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 1080 1386
+wv_move_window CustomWaveView 1050 1194
+wv_resize_window CustomWaveView 1194 1050
+sx_open_sim_file_read {mux_pre.tr0}
+## user break ctrl-C
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1554 1216
+## user break ctrl-C
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1554 1216
+## user break ctrl-C
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1554 1216
+## user break ctrl-C
+wv_select_dialog Confirmation
+## user break ctrl-C
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1554 1216
+## user break ctrl-C
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1554 1216
+wv_select_dialog Confirmation
+wv_select_dialog Confirmation
+wv_select_dialog Confirmation
+wv_select_dialog Confirmation
+wv_select_dialog Confirmation
+wv_select_dialog Confirmation
+wv_close_dialog Confirmation
+wv_resize_window CustomWaveView 1080 1898
+wv_move_window CustomWaveView 73 1419
+wv_move_window CustomWaveView 946 1850
+wv_move_window CustomWaveView 1241 1415
+wv_move_window CustomWaveView 1119 1363
+wv_move_window CustomWaveView 1122 1303
+wv_move_window CustomWaveView 1126 1287
+wv_move_window CustomWaveView 1132 1265
+wv_move_window CustomWaveView 1139 1238
+wv_move_window CustomWaveView 1160 1148
+wv_move_window CustomWaveView 1165 1120
+wv_move_window CustomWaveView 1174 1079
+wv_move_window CustomWaveView 1178 1056
+wv_move_window CustomWaveView 1179 1053
+wv_move_window CustomWaveView 1179 1050
+wv_move_window CustomWaveView 1182 946
+wv_move_window CustomWaveView 1177 824
+wv_move_window CustomWaveView 1173 803
+wv_move_window CustomWaveView 1172 798
+wv_move_window CustomWaveView 1172 796
+wv_move_window CustomWaveView 1171 794
+wv_move_window CustomWaveView 1171 783
+wv_move_window CustomWaveView 1171 762
+wv_move_window CustomWaveView 1171 721
+wv_move_window CustomWaveView 1171 674
+wv_move_window CustomWaveView 1174 628
+wv_move_window CustomWaveView 1195 359
+wv_move_window CustomWaveView 1203 285
+wv_move_window CustomWaveView 1205 1363
+wv_move_window CustomWaveView 1200 296
+wv_move_window CustomWaveView 1194 319
+wv_move_window CustomWaveView 1184 385
+wv_move_window CustomWaveView 1180 421
+wv_move_window CustomWaveView 1176 454
+wv_move_window CustomWaveView 1169 532
+wv_move_window CustomWaveView 1166 656
+wv_move_window CustomWaveView 1166 658
+wv_move_window CustomWaveView 1131 688
+wv_move_window CustomWaveView 1049 723
+wv_move_window CustomWaveView 982 737
+wv_move_window CustomWaveView 907 749
+wv_move_window CustomWaveView 812 754
+wv_move_window CustomWaveView 677 750
+wv_move_window CustomWaveView 523 715
+wv_move_window CustomWaveView 381 639
+wv_move_window CustomWaveView 179 449
+wv_move_window CustomWaveView 51 132
+wv_move_window CustomWaveView 60 109
+wv_move_window CustomWaveView 60 107
+wv_move_window CustomWaveView 60 105
+wv_move_window CustomWaveView 25 101
+wv_move_window CustomWaveView -33 95
+wv_move_window CustomWaveView -66 89
+wv_move_window CustomWaveView -72 87
+wv_move_window CustomWaveView -74 88
+wv_move_window CustomWaveView -74 87
+wv_move_window CustomWaveView -99 87
+wv_move_window CustomWaveView -64 89
+wv_move_window CustomWaveView 9 99
+wv_move_window CustomWaveView 13 100
+wv_move_window CustomWaveView 13 101
+wv_move_window CustomWaveView 13 100
+wv_move_window CustomWaveView 11 100
+wv_move_window CustomWaveView 11 98
+wv_move_window CustomWaveView 10 97
+wv_move_window CustomWaveView 10 93
+wv_move_window CustomWaveView 10 69
+wv_move_window CustomWaveView 10 47
+wv_move_window CustomWaveView 10 40
+wv_move_window CustomWaveView 10 32
+wv_move_window CustomWaveView 10 25
+wv_move_window CustomWaveView 10 20
+wv_move_window CustomWaveView 10 15
+wv_move_window CustomWaveView 10 11
+wv_move_window CustomWaveView 10 9
+wv_move_window CustomWaveView 10 6
+wv_move_window CustomWaveView 10 1
+wv_move_window CustomWaveView 10 1363
+wv_move_window CustomWaveView 9 1363
+wv_move_window CustomWaveView 4 1363
+wv_move_window CustomWaveView 0 1363
+wv_move_window CustomWaveView -2 0
+wv_move_window CustomWaveView -3 0
+wv_move_window CustomWaveView -8 0
+wv_move_window CustomWaveView -10 0
+wv_move_window CustomWaveView -11 0
+wv_move_window CustomWaveView -13 0
+wv_move_window CustomWaveView -35 0
+wv_move_window CustomWaveView -40 0
+wv_move_window CustomWaveView -41 0
+wv_move_window CustomWaveView -46 0
+wv_move_window CustomWaveView -51 49
+wv_move_window CustomWaveView -51 92
+wv_move_window CustomWaveView -51 138
+wv_move_window CustomWaveView -51 180
+wv_move_window CustomWaveView -32 282
+wv_move_window CustomWaveView -16 316
+wv_move_window CustomWaveView -7 330
+wv_move_window CustomWaveView 4 344
+wv_move_window CustomWaveView 39 386
+wv_move_window CustomWaveView 43 390
+wv_move_window CustomWaveView 45 390
+wv_move_window CustomWaveView 47 387
+wv_move_window CustomWaveView 56 375
+wv_move_window CustomWaveView 58 358
+wv_move_window CustomWaveView 38 354
+wv_move_window CustomWaveView 26 350
+wv_move_window CustomWaveView 19 349
+wv_move_window CustomWaveView 14 348
+wv_move_window CustomWaveView 11 348
+wv_move_window CustomWaveView 8 345
+wv_move_window CustomWaveView 4 344
+wv_move_window CustomWaveView -18 309
+wv_move_window CustomWaveView -27 263
+wv_move_window CustomWaveView -28 263
+wv_move_window CustomWaveView -23 260
+wv_move_window CustomWaveView -20 258
+wv_move_window CustomWaveView -19 257
+wv_move_window CustomWaveView -16 257
+wv_move_window CustomWaveView -17 257
+wv_move_window CustomWaveView -17 256
+wv_move_window CustomWaveView -19 233
+wv_move_window CustomWaveView -16 264
+wv_move_window CustomWaveView 1 294
+wv_move_window CustomWaveView 59 380
+wv_move_window CustomWaveView 195 522
+wv_move_window CustomWaveView 274 583
+wv_move_window CustomWaveView 311 606
+wv_move_window CustomWaveView 351 630
+wv_move_window CustomWaveView 393 652
+wv_move_window CustomWaveView 432 674
+wv_move_window CustomWaveView 470 693
+wv_move_window CustomWaveView 511 719
+wv_move_window CustomWaveView 526 730
+wv_move_window CustomWaveView 558 770
+wv_move_window CustomWaveView 763 986
+wv_move_window CustomWaveView 799 1047
+wv_move_window CustomWaveView 804 1042
+wv_move_window CustomWaveView 811 1025
+wv_move_window CustomWaveView 841 978
+wv_move_window CustomWaveView 877 939
+wv_move_window CustomWaveView 898 921
+wv_move_window CustomWaveView 923 897
+wv_move_window CustomWaveView 1010 803
+wv_move_window CustomWaveView 1034 597
+wv_move_window CustomWaveView 1041 511
+wv_move_window CustomWaveView 1040 488
+wv_move_window CustomWaveView 1040 462
+wv_move_window CustomWaveView 1040 443
+wv_move_window CustomWaveView 1041 387
+wv_move_window CustomWaveView 1060 327
+wv_move_window CustomWaveView 1080 293
+wv_move_window CustomWaveView 1095 1363
+wv_move_window CustomWaveView 1113 1363
+wv_move_window CustomWaveView 1181 311
+wv_move_window CustomWaveView 1217 1363
+wv_move_window CustomWaveView 1250 1363
+wv_move_window CustomWaveView 1254 1363
+wv_move_window CustomWaveView 1252 1363
+wv_move_window CustomWaveView 1250 1363
+wv_move_window CustomWaveView 1248 1363
+wv_move_window CustomWaveView 1247 1363
+wv_move_window CustomWaveView 1246 1363
+wv_move_window CustomWaveView 1248 1363
+wv_select_hierview_item {FILE0:D0:mux_pre.tr0}
+wv_dclick_hierview_item {FILE0:D0:mux_pre.tr0}
+wv_select_hierview_item {FILE0:D0:mux_pre.tr0}
+wv_select_hierview_item {FILE0:D0:mux_pre.tr0} {toplevel}
+wv_dclick_hierview_item {FILE0:D0:mux_pre.tr0} {toplevel}
+wv_move_window CustomWaveView 1248 1372
+wv_move_window CustomWaveView 1132 1544
+wv_move_window CustomWaveView 1406 1408
+wv_move_window CustomWaveView 1440 938
+wv_move_window CustomWaveView 1388 372
+wv_move_window CustomWaveView 1385 369
+wv_resize_window CustomWaveView 967 1437
+wv_move_window CustomWaveView 1384 375
+wv_move_window CustomWaveView 1378 393
+wv_move_window CustomWaveView 1365 427
+wv_move_window CustomWaveView 1273 704
+wv_move_window CustomWaveView 1220 903
+wv_move_window CustomWaveView 1199 985
+wv_move_window CustomWaveView 1185 1041
+wv_move_window CustomWaveView 1151 1146
+wv_move_window CustomWaveView 1146 1155
+wv_move_window CustomWaveView 1146 1154
+wv_move_window CustomWaveView 1102 1088
+wv_move_window CustomWaveView 488 188
+wv_move_window CustomWaveView 438 232
+wv_move_window CustomWaveView 435 234
+wv_move_window CustomWaveView 186 217
+wv_move_window CustomWaveView 178 214
+wv_move_window CustomWaveView 176 215
+wv_move_window CustomWaveView 177 217
+wv_move_window CustomWaveView 177 219
+wv_move_window CustomWaveView 177 220
+wv_move_window CustomWaveView 177 219
+wv_move_window CustomWaveView 177 221
+wv_move_window CustomWaveView 179 222
+wv_move_window CustomWaveView 179 223
+wv_move_window CustomWaveView 168 231
+wv_move_window CustomWaveView 146 249
+wv_move_window CustomWaveView 135 261
+wv_move_window CustomWaveView 120 281
+wv_move_window CustomWaveView 116 287
+wv_move_window CustomWaveView 103 294
+wv_move_window CustomWaveView 86 298
+wv_move_window CustomWaveView 78 301
+wv_move_window CustomWaveView 71 301
+wv_move_window CustomWaveView 67 303
+wv_move_window CustomWaveView 51 309
+wv_move_window CustomWaveView 33 312
+wv_move_window CustomWaveView 13 315
+wv_move_window CustomWaveView -6 316
+wv_move_window CustomWaveView -32 316
+wv_move_window CustomWaveView -49 310
+wv_move_window CustomWaveView -51 308
+wv_move_window CustomWaveView -31 249
+wv_move_window CustomWaveView 56 68
+wv_move_window CustomWaveView 74 17
+wv_move_window CustomWaveView 81 0
+wv_move_window CustomWaveView 75 0
+wv_move_window CustomWaveView 71 0
+wv_move_window CustomWaveView 68 3
+wv_move_window CustomWaveView 65 6
+wv_move_window CustomWaveView 57 13
+wv_move_window CustomWaveView 54 15
+wv_move_window CustomWaveView 52 16
+wv_move_window CustomWaveView 53 18
+wv_move_window CustomWaveView 53 17
+wv_select_sigview_item v(ns)
+wv_dclick_sigview_item v(ns)
+wv_select_sigview_item v(nout)
+wv_dclick_sigview_item v(nout)
+wv_select_sigview_item v(nb)
+wv_dclick_sigview_item v(nb)
+wv_select_sigview_item v(na)
+wv_dclick_sigview_item v(na)
+wv_resize_window CustomWaveView 908 1045
+wv_resize_window CustomWaveView 929 722
+wv_resize_window CustomWaveView 977 984
+wv_move_window CustomWaveView 513 986
+wv_move_window CustomWaveView 579 1051
+wv_move_window CustomWaveView 600 1066
+wv_move_window CustomWaveView 615 1074
+wv_move_window CustomWaveView 630 1080
+wv_move_window CustomWaveView 650 1086
+wv_move_window CustomWaveView 667 1090
+wv_move_window CustomWaveView 679 1093
+wv_move_window CustomWaveView 688 1094
+wv_move_window CustomWaveView 691 1096
+wv_move_window CustomWaveView 692 1095
+wv_move_window CustomWaveView 693 1095
+wv_move_window CustomWaveView 693 1099
+wv_move_window CustomWaveView 695 1113
+wv_move_window CustomWaveView 720 1192
+wv_move_window CustomWaveView 753 1257
+wv_move_window CustomWaveView 783 1296
+wv_move_window CustomWaveView 953 1359
+wv_move_window CustomWaveView 1036 1373
+wv_move_window CustomWaveView 1082 1372
+wv_move_window CustomWaveView 1161 1363
+wv_move_window CustomWaveView 1189 1363
+wv_move_window CustomWaveView 1041 1294
+wv_move_window CustomWaveView 1081 1363
+wv_move_window CustomWaveView 1084 1363
+wv_move_window CustomWaveView 1083 1363
+wv_move_window CustomWaveView 1081 1363
+wv_resize_window CustomWaveView 1380 979
+wv_resize_window CustomWaveView 1732 935
+wv_select_panel WV1.PANEL4:1 3.92638e-10 -0.00561798
+wv_drag_item_to WV1 255 786
+wv_zoom WV1.PANEL4:1 3.92638e-10 -0.00561798 9.1411e-10 4.17978
+wv_waveview_context_menu WV1.PANEL2:1 4.91728e-10 0.688703
+wv_select_context_menu_item {Grid Settings}
+wv_select_dialog GridSettings
+wv_move_dialog GridSettings 1709 1385
+wv_set_check GridSettings.YAutoGrid 0
+wv_set_text GridSettings.YStart {  0.0000E+00}
+wv_press_button GridSettings.Cancel
+wv_select_panel WV1.PANEL2:1 4.37824e-10 0.0243356
+wv_waveview_context_menu WV1.PANEL2:1 4.37824e-10 0.0243356
+wv_select_toolbar_item {X-Y}
+wv_select_panel WV1.PANEL2:1 4.44611e-10 0.0388305
+wv_select_panel WV1.PANEL2:1 4.4541e-10 0.0956918
+wv_drag_item_to WV1 259 350
+wv_zoom WV1.PANEL2:1 4.4541e-10 0.0956918 4.50601e-10 -0.20283
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.ICON.zoomout
+wv_release_wv_item WV1 43 15
+wv_select_wv_item WV1.HSLIDER 314 818
+wv_drag_item_to WV1 322 818
+wv_drag_item_to WV1 382 821
+wv_horz_scroll WV1 105
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 78 14
+wv_select_wv_item WV1.PANEL3:1.CURSOR1
+wv_drag_item_to WV1 809 487
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 375 406
+wv_select_wv_item WV1.PANEL3:1.CURSOR1
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 371 485
+wv_release_wv_item WV1 371 485
+wv_select_wv_item WV1.PANEL3:1.CURSOR1
+wv_drag_item_to WV1 372 485
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 375 484
+wv_select_wv_item {WV1.ICON.add cursor}
+wv_release_wv_item WV1 73 9
+wv_select_wv_item WV1.PANEL2:1.CURSOR2
+wv_drag_item_to WV1 807 246
+wv_move_wv_item WV1.PANEL2:1.CURSOR2 1088 273
+wv_select_wv_item WV1.PANEL2:1.CURSOR1
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 380 334
+wv_select_wv_item WV1.PANEL2:1.CURSOR1
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 374 341
+wv_select_wv_item WV1.PANEL2:1.CURSOR2
+wv_move_wv_item WV1.PANEL2:1.CURSOR2 1085 261
+wv_select_wv_item WV1.PANEL2:1.CURSOR2
+wv_drag_item_to WV1 1082 261
+wv_move_wv_item WV1.PANEL2:1.CURSOR2 819 342
+wv_select_wv_item WV1.PANEL3:1.CURSOR1
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 369 366
+wv_select_wv_item WV1.PANEL3:1.CURSOR1
+wv_drag_item_to WV1 369 366
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 323 405
+wv_waveview_context_menu WV1.PANEL2:1 3.85764e-10 0.52926
+wv_select_context_menu_item {Grid Settings}
+wv_select_dialog GridSettings
+wv_set_check GridSettings.YAutoGrid 0
+wv_set_text GridSettings.YStep {  0.1000E+00}
+wv_press_button GridSettings.Ok
+wv_select_wv_item WV1.PANEL2:1.CURSOR2
+wv_move_wv_item WV1.PANEL2:1.CURSOR2 819 271
+wv_select_wv_item WV1.PANEL2:1.CURSOR2
+wv_drag_item_to WV1 817 209
+wv_move_wv_item WV1.PANEL2:1.CURSOR2 799 234
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 1854 1385
+# wv_press_button Confirmation.Ok

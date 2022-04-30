@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 08/04/2020 19:20 (cpgsrv11) $
           : sub-version  IC6.1.8-64b.500.13 
-Started at: 29-Apr-2022  22:35:53
+Started at: 29-Apr-2022  23:31:49
 User Name : sstokes
 Host Name : sig1.eecs.wsu.edu
 Directory : /net/ugrads/sstokes/pvt/ee434/2mux
@@ -24,6 +24,7 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-223): 1. Translating cellView mymux/mux/layout as STRUCTURE mux.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0

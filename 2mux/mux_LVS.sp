@@ -7,16 +7,14 @@
 * PMOS:
 *   name    drain       gate    source  body    type    L(Length)   W(Width)
 * s - inverter
-	mp1 	nS_bar		S 		VDD 	VDD 	PMOS_HP L=0.05u 	W=0.215u
+	mp1 	nS_bar		S 		VDD 	VDD 	PMOS_HP L=0.05u 	W=0.27u
 * left mux logic
-	mp2 	net_1 		nS_bar  VDD 	VDD 	PMOS_HP L=0.05u 	W=0.215u
-	mp3 	nY_bar		S 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.215u 
+	mp2 	net_1 		nS_bar  VDD 	VDD 	PMOS_HP L=0.05u 	W=0.27u
+	mp3 	nY_bar		S 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.27u
 										* do I change body to VDD or net_1
 * right mux logic
-	mp4 	net_1 		A 		VDD 	VDD 	PMOS_HP L=0.05u 	W=0.215u
-	mp5 	nY_bar		B 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.215u 
-										* do I change body to VDD or net_1
-
+	mp4 	net_1 		A 		VDD 	VDD 	PMOS_HP L=0.05u 	W=0.27u
+	mp5 	nY_bar		B 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.27u
 * output inverter:
 	*mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.14u
 	mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.09u
