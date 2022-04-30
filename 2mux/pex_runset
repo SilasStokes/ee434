@@ -6,4 +6,9 @@
 *pexSourcePrimary: mux
 *pexPexNetlistFile: mux_xRC.sp
 *pexPexNetlistFormat: HSPICE
+*cmnPromptSaveRunset: 0
 *cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}

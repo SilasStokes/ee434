@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 08/04/2020 19:20 (cpgsrv11) $
           : sub-version  IC6.1.8-64b.500.13 
-Started at: 29-Apr-2022  23:31:49
+Started at: 30-Apr-2022  00:03:42
 User Name : sstokes
 Host Name : sig1.eecs.wsu.edu
 Directory : /net/ugrads/sstokes/pvt/ee434/2mux
@@ -51,5 +51,5 @@ Summary of Objects Translated:
 	TextDisplay:                            6
 	Cells:                                  1
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 3740KB
+Elapsed Time: 0.7s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 3740KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

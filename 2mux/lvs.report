@@ -16,7 +16,7 @@ LAYOUT NAME:              /net/ugrads/sstokes/pvt/ee434/2mux/svdb/mux.sp ('mux')
 SOURCE NAME:              /net/ugrads/sstokes/pvt/ee434/2mux/mux_LVS.sp ('mux')
 RULE FILE:                /net/ugrads/sstokes/pvt/ee434/2mux/_calibrexRC.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Fri Apr 29 23:38:31 2022
+CREATION TIME:            Sat Apr 30 00:08:37 2022
 CURRENT DIRECTORY:        /net/ugrads/sstokes/pvt/ee434/2mux
 USER NAME:                sstokes
 CALIBRE VERSION:          v2020.3_24.16    Mon Aug 3 18:42:13 PDT 2020

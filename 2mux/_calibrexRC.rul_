@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Fri Apr 29 23:38:29 PDT 2022
+//  Rule file generated on Sat Apr 30 00:08:33 PDT 2022
 //     by Calibre Interactive - PEX (v2020.3_24.16)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -18,7 +18,7 @@ MASK SVDB DIRECTORY "svdb" QUERY XRC
 
 LVS REPORT "lvs.report"
 
-PEX NETLIST "mux_xRC.sp" ELDO 1 SOURCENAMES 
+PEX NETLIST "mux_xRC.sp" HSPICE 1 SOURCENAMES 
 PEX REDUCE ANALOG NO
 PEX NETLIST UPPERCASE KEYWORDS NO
 PEX NETLIST VIRTUAL CONNECT NO

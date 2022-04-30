@@ -1,5 +1,5 @@
 * File: mux_xRC.sp
-* Created: Fri Apr 29 23:38:35 2022
+* Created: Sat Apr 30 00:08:47 2022
 * Program "Calibre xRC"
 * Version "v2020.3_24.16"
 * 
@@ -33,9 +33,9 @@ mp3 N_NY_BAR_mp3_d N_S_mp3_g N_noxref_6_mp2_d N_VDD_mp1_b PMOS_HP L=5e-08
 mp5 N_NY_BAR_mp3_d N_B_mp5_g N_noxref_6_mp5_s N_VDD_mp1_b PMOS_HP L=5e-08
 + W=2.7e-07 AD=3.78e-14 AS=3.78e-14 PD=8.2e-07 PS=8.2e-07
 mp4 N_noxref_6_mp5_s N_A_mp4_g N_VDD_mp4_s N_VDD_mp1_b PMOS_HP L=5e-08 W=2.7e-07
-+ AD=3.78e-14 AS=2.97e-14 PD=8.2e-07 PS=9.2e-07
-mp6 N_Y_mp6_d N_NY_BAR_mp6_g N_VDD_mp4_s N_VDD_mp1_b PMOS_HP L=5e-08 W=9e-08
-+ AD=1.035e-14 AS=2.97e-14 PD=4.1e-07 PS=9.2e-07
++ AD=3.78e-14 AS=5.07e-14 PD=8.2e-07 PS=9.2e-07
+mp6 N_Y_mp6_d N_NY_BAR_mp6_g N_VDD_mp4_s N_VDD_mp1_b PMOS_HP L=5e-08 W=2.65e-07
++ AD=3.0475e-14 AS=5.07e-14 PD=7.6e-07 PS=9.2e-07
 *
 .include "mux_xRC.sp.MUX.pxi"
 *

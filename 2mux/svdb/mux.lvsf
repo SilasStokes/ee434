@@ -11,4 +11,4 @@ lvs_GroundName GROUND
 lvs_LvsOutFile LVS_REPORT lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /net/ugrads/sstokes/pvt/ee434/2mux/mux_LVS.sp
 lvs_LvsOutFile RULES_FILE /net/ugrads/sstokes/pvt/ee434/2mux/_calibrexRC.rul_
-lvs_LvsRunTimes 1651300711 1651300711
+lvs_LvsRunTimes 1651302517 1651302517

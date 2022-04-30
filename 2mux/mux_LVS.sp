@@ -17,7 +17,7 @@
 	mp5 	nY_bar		B 		net_1	VDD 	PMOS_HP L=0.05u 	W=0.27u
 * output inverter:
 	*mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.14u
-	mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.09u
+	mp6		Y			nY_bar	VDD		VDD		PMOS_HP L=0.05u 	W=0.265u
 
 
 * NMOS:

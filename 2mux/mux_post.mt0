@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='K-2015.06-SP1 linux64' PARAM_COUNT=0
+.TITLE ' '
+ tfall            trise            temper           alter#          
+  1.046e-10        7.979e-11        2.500e+01       1               
