@@ -2,7 +2,8 @@
 .GLOBAL VDD
 .GLOBAL VSS
 
-.SUBCKT mux A B S Y VDD VSS
+.SUBCKT mux S A B VDD VSS Y
+* .SUBCKT mux A B S Y VDD VSS
 * PMOS:
 *   name    drain       gate    source  body    type    L(Length)   W(Width)
 * s - inverter

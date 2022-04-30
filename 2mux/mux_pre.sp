@@ -19,13 +19,14 @@
 *mn1 nOut nIn 0 0 NMOS_HP L=50n W=90n
 *mp1 nOut nIn nVdd nVdd PMOS_HP L=50n W=140n
 
-.include "MUX2_X1_LVS.sp"
+.include "mux_LVS.sp"
 
 * Instantation. The instance name should begin with "X".
 * The order of the ports should match the order of the ports in the definition.
 * The last one is the name of the instance definition.
 * X1 nIn nOut nVdd 0 MUX2_X1 
-X1 nA nB nS nOut nVdd 0 MUX2_X1 
+* X1 nA nB nS nOut nVdd 0 MUX2_X1 
+X1 nS nA nB nVdd 0 nOut  mux
 
 * Output load capacitance. Capacitors should begin with "c".
 * Format: <capacitor name> <node 1> <node 2> <value>
@@ -38,10 +39,14 @@ VVdd nVdd 0 Vsup
 * Input signal (independent voltage source)
 * Format: <signal name> <node 1> <node 2> <signal>
 * For the signal, we use a piecewise linear (PWL) source. Format: time1 value1 time2 value2 ...
-Vsrc nIn 0 PWL 0p 0 200p 0 210p Vsup 1n Vsup 1.01n 0 2n 0
+* Vsrc nIn 0 PWL 0p 0 200p 0 210p Vsup 1n Vsup 1.01n 0 2n 0
+VA nA 0 PWL 0p 0 400p 0 410p Vsup 800p Vsup 810p 0 2.4n 0 2.41n Vsup 2.8n Vsup 2.81n 0 
+VB nB 0 PWL 0p 0 1200p 0 1210p Vsup 1600p Vsup 1610p 0 3.2n 0 3.21n Vsup 3.6n Vsup 3.61n 0 
+VS nS 0 PWL 0p 0 2n 0 2.01n Vsup
 
 * Transient analysis. Simulate up to 2.5ns.
-.tran 1p 2.5n
+.tran 1p 4n
+* .tran 1p 2.5n
 
 * Measure (fall time)
 .measure TRAN tfall TRIG V(nOut) VAL=0.9 FALL=1 TARG V(nOut) VAL=0.1 FALL=1
